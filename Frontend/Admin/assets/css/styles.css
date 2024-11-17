@@ -1,0 +1,306 @@
+.admin-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.admin-sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.admin-sidebar a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-sidebar a:hover {
+  background-color: #ddd;
+}
+
+.admin-content {
+  padding: 20px;
+}
+
+ /* Admin products styles */
+.admin-products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-products-table th, .admin-products-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-products-table th {
+  background-color: #f1f1f1;
+}
+
+.admin-products-table .product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-products-table .product-actions a {
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-products-table .product-actions a:hover {
+  color: #000;
+}
+
+/* Admin orders styles */
+.admin-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-orders-table th, .admin-orders-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-orders-table th {
+  background-color: #f1f1f1;
+}
+
+.admin-orders-table .order-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-orders-table .order-actions a {
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-orders-table .order-actions a:hover {
+  color: #000;
+}
+
+/* Admin orders styles */
+.admin-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-orders-table th, .admin-orders-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-orders-table th {
+  background-color: #f1f1f1;
+}
+
+.admin-orders-table .order-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-orders-table .order-actions a {
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-orders-table .order-actions a:hover {
+  color: #000;
+}
+
+/* Admin users styles */
+.admin-users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-users-table th, .admin-users-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-users-table th {
+  background-color: #f1f1f1;
+}
+
+.admin-users-table .user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-users-table .user-actions a {
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-users-table .user-actions a:hover {
+  color: #000;
+}
+
+/* Admin reports styles */
+.admin-reports-section {
+  margin-bottom: 40px;
+}
+
+.admin-reports-section h2 {
+  margin-bottom: 20px;
+}
+
+.admin-reports-section .report-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.admin-reports-section .report-charts > div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Admin settings styles */
+.admin-settings-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.admin-settings-form .form-group {
+  margin-bottom: 20px;
+}
+
+.admin-settings-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.admin-settings-form input,
+.admin-settings-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.admin-settings-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-settings-form button:hover {
+  background-color: #3b7dbe;
+}
+
+/* Admin auth styles */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.auth-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-header h1 {
+  color: #333;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.auth-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.auth-button:hover {
+  background-color: #357abd;
+}
+
+.auth-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.auth-links a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background-color: #fee2e2;
+  border: 1px solid #ef4444;
+  color: #dc2626;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  display: none;
+}

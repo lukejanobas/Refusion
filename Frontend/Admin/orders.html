@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Orders - Fashion Store</title>
+    <link rel="stylesheet" href="/Admin/assets/css/styles.css">
+
+</head>
+<body>
+    <div class="admin-layout">
+        <div class="admin-sidebar">
+            <h3>Admin Menu</h3>
+            <nav>
+              <a href="dashboard.html">Dashboard</a>
+              <a href="products.html">Products</a>
+              <a href="orders.html">Orders</a>
+              <a href="users.html">Users</a>
+              <a href="reports.html">Reports</a>
+              <a href="settings.html">Settings</a>
+            </nav>
+        </div>
+        <div class="admin-content">
+            <h1>Manage Orders</h1>
+
+            <table class="admin-orders-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1001</td>
+                        <td>John Doe</td>
+                        <td>2023-05-01</td>
+                        <td>$209.98</td>
+                        <td>Pending</td>
+                        <td class="order-actions">
+                            <a href="#">View</a>
+                            <a href="#">Update</a>
+                            <a href="#">Refund</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#1002</td>
+                        <td>Jane Smith</td>
+                        <td>2023-05-03</td>
+                        <td>$129.99</td>
+                        <td>Shipped</td>
+                        <td class="order-actions">
+                            <a href="#">View</a>
+                            <a href="#">Update</a>
+                            <a href="#">Refund</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#1003</td>
+                        <td>David Lee</td>
+                        <td>2023-05-05</td>
+                        <td>$79.99</td>
+                        <td>Delivered</td>
+                        <td class="order-actions">
+                            <a href="#">View</a>
+                            <a href="#">Update</a>
+                            <a href="#">Refund</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

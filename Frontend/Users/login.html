@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store - Login</title>
+    <link rel="stylesheet" href="/Users/assets/css/login.css">
+    <link rel="icon" href="/Users/assets/img/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html" class="logo">REFUSION</a>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="collection.html">Collection</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html" class="cart-icon">Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="login-process.php" method="POST">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Newsletter Sign Up</h3>
+                <p>Stay updated with our latest products and offers!</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="auth-buttons">
+              <h3>Account Access</h3>
+              <div class="auth-links">
+                  <a href="login.html" class="btn btn-login">Login</a>
+                  <a href="register.html" class="btn btn-register">Register</a>
+              </div>
+          </div>
+
+            <div class="social-links">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+                <a href="#">🐦</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

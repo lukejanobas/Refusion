@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REFUSION - All Products</title>
+    <link rel="stylesheet" href="/Users/assets/css/products.css">
+    <link rel="icon" href="/Users/assets/img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="home.html" class="logo">REFUSION</a>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="collection.html">Collection</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-header">
+            <h2>ALL PRODUCTS</h2>
+            <div class="filters">
+                <select name="category" id="category">
+                    <option value="">All Categories</option>
+                    <option value="hoodies">Hoodies</option>
+                    <option value="jackets">Jackets</option>
+                    <option value="shirts">Shirts</option>
+                    <option value="pants">Pants</option>
+                </select>
+                <select name="sort" id="sort">
+                    <option value="newest">Newest</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <a href="product-detail.html?id=1">
+                    <div class="product-image">
+                        <img src="/Users/assets/img/Wardrobe/Hoodies/h3.jpg" alt="Classic Hoodie">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Classic Hoodie</div>
+                        <div class="product-price">₱100</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product-detail.html?id=2">
+                    <div class="product-image">
+                        <img src="/Users/assets/img/Wardrobe/Jackets/j3.jpg" alt="Premium Jacket">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Premium Jacket</div>
+                        <div class="product-price">₱100</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product-detail.html?id=3">
+                    <div class="product-image">
+                        <img src="/Users/assets/img/Wardrobe/Shirts/s3.jpg" alt="Designer Shirt">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Designer Shirt</div>
+                        <div class="product-price">₱100</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="product-detail.html?id=4">
+                    <div class="product-image">
+                        <img src="/Users/assets/img/Wardrobe/Pants/p3.jpg" alt="Slim Fit Pants">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Slim Fit Pants</div>
+                        <div class="product-price">$89.99</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="btn">Previous</a>
+            <a href="#" class="btn active">1</a>
+            <a href="#" class="btn">2</a>
+            <a href="#" class="btn">3</a>
+            <a href="#" class="btn">Next</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Newsletter Sign Up</h3>
+                <p>Stay updated with our latest products and offers!</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="auth-buttons">
+              <h3>Account Access</h3>
+              <div class="auth-links">
+                  <a href="login.html" class="btn btn-login">Login</a>
+                  <a href="register.html" class="btn btn-register">Register</a>
+              </div>
+          </div>
+
+            <div class="social-links">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+                <a href="#">🐦</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

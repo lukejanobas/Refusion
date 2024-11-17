@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Products - Fashion Store</title>
+    <link rel="stylesheet" href="/Admin/assets/css/styles.css">
+
+</head>
+<body>
+    <div class="admin-layout">
+        <div class="admin-sidebar">
+            <h3>Admin Menu</h3>
+            <nav>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="products.html">Products</a>
+                <a href="orders.html">Orders</a>
+                <a href="users.html">Users</a>
+                <a href="reports.html">Reports</a>
+                <a href="settings.html">Settings</a>
+            </nav>
+        </div>
+        <div class="admin-content">
+            <h1>Manage Products</h1>
+
+            <table class="admin-products-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Inventory</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Premium Hoodie</td>
+                        <td>$79.99</td>
+                        <td>Tops</td>
+                        <td>50</td>
+                        <td class="product-actions">
+                            <a href="#">Edit</a>
+                            <a href="#">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Classic Jacket</td>
+                        <td>$129.99</td>
+                        <td>Outerwear</td>
+                        <td>30</td>
+                        <td class="product-actions">
+                            <a href="#">Edit</a>
+                            <a href="#">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Designer Shirt</td>
+                        <td>$49.99</td>
+                        <td>Tops</td>
+                        <td>75</td>
+                        <td class="product-actions">
+                            <a href="#">Edit</a>
+                            <a href="#">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a href="admin-create-product.php" class="btn btn-primary">Add New Product</a>
+        </div>
+    </div>
+</body>
+</html>
