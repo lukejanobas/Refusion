@@ -1,7 +1,8 @@
 <?php  
 
-include('includes/header.php'); 
 include('../middleware/adminMiddleware.php');
+include('includes/header.php'); 
+
 
 ?>
 
@@ -14,7 +15,7 @@ include('../middleware/adminMiddleware.php');
                         Products
                     </h4>
                 </div>
-                <div class="card-body">
+                <div class="card-body" id="products_table">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
@@ -45,14 +46,11 @@ include('../middleware/adminMiddleware.php');
                                             </td>
 
                                             <td>
-                                                <a href="edit-product.php? id=<?= $item['id']; ?>" class="btn btn-sm btn-primary">Edit</a>
+                                                <a href="edit-product.php?id=<?= $item['id']; ?>" class="btn btn-sm btn-primary">Edit</a>
                                                
                                             </td>
                                             <td>
-                                            <form action="code.php" method="POST">
-                                                    <input type="hidden" name="product_id" value="<?= $item['id']; ?>">
-                                                    <button type="submit" class="btn btn-sm btn-danger" name="delete_product_btn">Delete</button>
-                                                </form>
+                                                <button type="button" class="btn btn-sm btn-danger delete_product_btn" value="<?= $item['id']; ?>">Delete</button>
                                             </td>
                             
                                             
