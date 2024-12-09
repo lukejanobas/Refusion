@@ -1,5 +1,6 @@
 <?php 
 
+    session_start();
     include('../config/dbcon.php');
 
     function getAll($table) 
@@ -23,7 +24,7 @@
         $_SESSION['message'] = $message;
         header('Location: '.$url); 
         exit();
-    }
+    }   
     
 
 ?>

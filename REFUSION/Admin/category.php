@@ -1,7 +1,8 @@
 <?php  
 
-include('includes/header.php'); 
 include('../middleware/adminMiddleware.php');
+include('includes/header.php'); 
+
 
 ?>
 
@@ -46,6 +47,7 @@ include('../middleware/adminMiddleware.php');
                                             <td>
                                                 <a href="edit-category.php? id=<?= $item['id']; ?>" class="btn btn-primary">Edit</a>
                                                 <form action="code.php" method="POST">
+                                                    <input type="hidden" name="category_id" value="<?= $item['id']; ?>">
                                                     <button type="submit" class="btn btn-danger" name="delete_category_btn">Delete</button>
                                                 </form>
                                             </td>
